@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import url(./assets/components/_sidebar.css);
+.mat-drawer-container{
+    height: 100vh;
+}
+.mat-drawer{
+    width: 300px;
+    background-color: rgb(23, 23, 27);
+}
+ #top-bar{
+    height: 65px;
+    background:orange;
+    padding: 10px;
+ } 
+ .exp1{position: relative;}
+ .exp1::before{
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: 5px;
+    top: 0;
+    left: -6px;
+    background-color: red;
+ }

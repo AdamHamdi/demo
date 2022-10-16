@@ -1,0 +1,7 @@
+.mat-drawer-container{
+    height: 100vh;
+}
+.mat-drawer{
+    width: 300px;
+    background-color: rgb(23, 23, 27);
+}
