@@ -26,4 +26,6 @@ import {MatSidenavModule} from '@angular/material/sidenav';
  
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}

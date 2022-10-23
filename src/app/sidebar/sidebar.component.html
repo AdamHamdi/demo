@@ -1,1 +1,32 @@
-<p>sidebar works!</p>
+<div class="side-bar-container">
+    <div class="sidebar-header">
+        <div class="logo">
+            <img src="../../assets/images/red.webp" alt="">
+        </div>
+        
+            <mat-icon class="material-icons menu" (click)="closeSideBar()">menu</mat-icon>
+        
+    </div>
+    <div class="mt-5 navigation">
+        <div class="d-flex align-items-end navigation-item my-4">
+            <mat-icon class="material-icons mr-2">home</mat-icon>
+            <span class="navigation-title">Dashboad</span>
+        </div>
+        <div class="d-flex align-items-end navigation-item my-4">
+            <mat-icon class="material-icons mr-2">file_copy</mat-icon>
+            <span class="navigation-title">Examples</span>
+        </div>
+        <div class="d-flex align-items-end navigation-item my-4">
+            <mat-icon class="material-icons mr-2">folder_open</mat-icon>
+            <span class="navigation-title">components</span>
+        </div>
+        <div class="d-flex align-items-end navigation-item my-4">
+            <mat-icon class="material-icons mr-2"> notes</mat-icon>
+            <span class="navigation-title">Forms</span>
+        </div>
+        <div class="d-flex align-items-end navigation-item my-4">
+            <mat-icon class="material-icons mr-2">table_chart</mat-icon>
+            <span class="navigation-title">Tables</span>
+        </div>
+    </div>
+</div>

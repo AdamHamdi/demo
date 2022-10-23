@@ -1,0 +1,21 @@
+#top-bar{
+    height: 65px;
+    background:var(--lighter);
+    padding: 10px;
+    border-bottom:1px solid var(--lightgray);
+ } 
+ .search{
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 20px;
+ }
+ input::placeholder{
+    color:var(--white)!important;
+ }
+ .small-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius:20px;
+ }
+  
+ 

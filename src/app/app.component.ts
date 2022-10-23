@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'demo1';
   showFiller = false;
+  opened :boolean =true
+  closeDrawer(event:any){
+    this.opened= event
+  }
 }
